@@ -1,0 +1,19 @@
+news_sites:
+  elpais:
+    url: https://elpais.com/mexico
+    queries:
+      homepage_article_links: '.c_t a'
+      article_title: '.a_t'
+      article_body: 'div[data-dtm-region=articulo_cuerpo] p'
+  elsoldemexico:
+    url: https://www.elsoldemexico.com.mx
+    queries:
+      homepage_article_links: '.title a'
+      article_title: '.title'
+      article_body: '.content-body p'
+  bbc:
+    url: https://www.bbc.com/mundo
+    queries:
+      homepage_article_links: '.bbc-t81ytv a'
+      article_title: 'main h1'
+      article_body: '.bbc-19j92fr+.ebmt73l0 p'
